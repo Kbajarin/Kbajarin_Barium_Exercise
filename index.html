@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var a = prompt("Enter length of first triangular side");
+        var b = prompt("Enter length of second triangular side");
+        var c = prompt("Enter length of third triangular side");
+        var x = parseFloat(a);
+        var y = parseFloat(b);
+        var z = parseFloat(c);
+        //dsfgbykigifufj thdtyre3gvvvvxdfvsvonbbbbbb djvuib ilgyrerytwewewewewewewewewe4ol6bop6i3o4by4y0486y75ghv0ybbhuhbp
+        determineTriangle(x, y, z);
+
+        function determineTriangle(q, r, s){
+            var q, r, s;
+        var t = isNaN(q);
+        var u = isNaN(r);
+        var v = isNaN(s);
+        if (t==true||u==true||v==true){
+            window.alert("One or more inputs is not a number");
+        }
+        else {
+                if (q == r && r == s){
+                     window.alert("The triangle is EQUILATERAL");
+              }
+                else{
+                    if (q==r||r==s||s==q){
+                        window.alert("The triangle is ISOCELES");
+                    }
+                    else {
+                        window.alert("The triangle is SCALENE");
+                    }
+            }
+        }
+    }
+
+        </script>
+</body>
+</html>
